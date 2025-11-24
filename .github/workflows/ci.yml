@@ -5,7 +5,7 @@ name: Node.js CI
 on:
   push:
     branches:
-      - main # main 브랜치에 코드가 푸시될 때 실행합니다.
+      - main
   pull_request: # 풀 리퀘스트가 생성 또는 갱신될 때도 워크플로우를 실행합니다.
     branches:
       - main # main 브랜치로 풀 리퀘스트가 열리거나 갱신될 때 실행합니다.
